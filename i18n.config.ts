@@ -13,8 +13,6 @@ function loadMessages(){
   return messages
 }
 
-console.log(loadMessages())
-
 export default defineI18nConfig(()=> ({
     legacy: false,
     locale: 'en',

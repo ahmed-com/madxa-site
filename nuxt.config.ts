@@ -1,3 +1,5 @@
+import themes from './themes'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -6,8 +8,12 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n'
   ],
 
-  // @ts-ignore
-  vuetifyOptions: {
-    //
+  vuetify: {
+    vuetifyOptions: {
+      theme: {
+        themes,
+        defaultTheme: 'Light'
+      }
+    }
   }
 })
