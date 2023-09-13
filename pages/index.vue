@@ -1,4 +1,5 @@
 <template>
+    <headerComponent></headerComponent>
     <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary collapse" id="navbarToggleExternalContent">
         <div class="container-fluid navback">
             <img src="madxaback.jpeg" width="50" height="50" alt="">
@@ -32,7 +33,7 @@
     </nav> -->
     
 
-    <v-layout>
+    <!-- <v-layout>
         <v-app-bar
             color="#103c61" :elevation="0">
     
@@ -106,7 +107,7 @@
     <footer>
         <p>&copy; 2023 Madxa official website. All rights reserved.</p>
 
-    </footer>
+    </footer> -->
 </template>
 
 <style scoped>
@@ -115,3 +116,14 @@
         }
         
 </style>
+
+<script>
+import headerComponent from '@/components/headerComponent.vue'; // Import the component
+
+export default {
+  components: {
+    headerComponent: "headerComponent", // Register the component for use in the template
+  },
+  // ...page logic
+}
+</script>
