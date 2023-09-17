@@ -1,18 +1,5 @@
-<script setup>
-import { defineComponent } from 'vue';
-import HeaderComponent from '@/components/headerComponent.vue'; // Import the component
-
-// Export the components and page logic
-const components = {
-  HeaderComponent, // Register the component for use in the template
-};
-
-// ... Define your page logic here
-</script>
-
-
 <template>
-    <headerComponent></headerComponent>
+    <div></div>
     <!--
     <div class="container text-center">
         <div class="row">
@@ -75,7 +62,10 @@ const components = {
 
     </footer> -->
 </template>
-
+<script setup>
+definePageMeta({
+    layout:'default'
+})</script>
 <style scoped>
         .custom-color {
         background-color:"#2eab79";
