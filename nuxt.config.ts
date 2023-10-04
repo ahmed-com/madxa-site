@@ -4,7 +4,7 @@ import themes from './themes'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules : [
-    '@invictus.codes/nuxt-vuetify',
+    ['@invictus.codes/nuxt-vuetify',{ rtl: true }],
     '@nuxtjs/i18n'
   ],
 

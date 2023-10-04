@@ -16,6 +16,9 @@ function loadMessages(){
 export default defineI18nConfig(()=> ({
     legacy: false,
     locale: 'en',
+    rtl: {
+      customLocale: true,
+    },
     fallbackLocale: 'en',
     messages: loadMessages()
 }))

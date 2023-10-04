@@ -1,3 +1,11 @@
 {
-    "brand": "Madxa"
+    "brand": "Madxa",
+    "request":"Request Service",
+    "home":"Home",
+    "service":"Services",
+    "Contact":"Contact",
+    "blogs": "Blogs",
+    "about":"About ",
+    "create account":" Create Account",
+    "theme":"Change theme"
 }
