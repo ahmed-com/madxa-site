@@ -15,6 +15,11 @@
     "nuxt": "^3.7.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.2.96",
+    "axios": "^1.5.0",
+    "json-server": "^0.17.3",
     "vue-i18n": "^9.4.0",
     "vuetify": "^3.3.16"
   }

@@ -2,10 +2,17 @@
     "brand": "مادكسا",
     "request":"اطلب خدمة",
     "home":"الصفحة الرئيسية",
-    "service":"الخدمات",
+    "services":"الخدمات",
     "Contact":"اتصل بنا",
     "blogs": "مقالات",
     "about":"عن الشركة",
     "create account":"سجل الان",
-    "theme":"الشكل"
+    "theme":"الشكل",
+    "description":"الوصف",
+    "content":"المحتوى",
+    "title":"العنوان",
+    "explore":"تفقد المزيد",
+    "comment":"اترك تعليق",
+    "timings":"المواعيد المتاحة",
+    "request service":"اطلب هذه الخدمة"
 }

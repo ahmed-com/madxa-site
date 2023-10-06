@@ -1,8 +1,10 @@
 <template>
-    <div>
+    <v-layout>
       <HeaderComponent></HeaderComponent>
       <slot />
-    </div>
+      <FooterComponent></FooterComponent>
+
+    </v-layout>
   </template>
 <style scoped>
         .custom-color {
