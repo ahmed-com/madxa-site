@@ -2,10 +2,17 @@
     "brand": "Madxa",
     "request":"Request Service",
     "home":"Home",
-    "service":"Services",
+    "services":"Services",
     "Contact":"Contact",
     "blogs": "Blogs",
     "about":"About ",
     "create account":" Create Account",
-    "theme":"Change theme"
+    "theme":"Change theme",
+    "description":"Description",
+    "content":"Content",
+    "title":"Title",
+    "explore":"Explore More",
+    "comment":"Comment",
+    "timings":"Available Times",
+    "request service":"Request this service"
 }
