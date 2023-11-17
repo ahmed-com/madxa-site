@@ -1,0 +1,17 @@
+{
+    "blogs": [
+        {"id": 1, "img":"https://cdn.vuetifyjs.com/images/cards/cooking.png", "title": "title", "subtitle": "sub title", "description": "description", "content": "content"},
+        {"id": 2, "img":"https://cdn.vuetifyjs.com/images/cards/cooking.png", "title": "title", "subtitle": "sub title", "description": "description", "content": "content"},
+        {"id": 3, "img":"https://cdn.vuetifyjs.com/images/cards/cooking.png", "title": "title", "subtitle": "sub title", "description": "description", "content": "content"},
+        {"id": 4, "img":"https://cdn.vuetifyjs.com/images/cards/cooking.png", "title": "title", "subtitle": "sub title", "description": "description", "content": "content"},
+        {"id": 5, "img":"https://cdn.vuetifyjs.com/images/cards/cooking.png", "title": "title", "subtitle": "sub title", "description": "description", "content": "content"}
+    ],
+
+    "services": [
+        {"id": 1, "img":"https://cdn.vuetifyjs.com/images/cards/cooking.png", "subtitle": "sub title", "description": "description", "availabilities": ["5:30 pm", "7:00 am"], "content": "content"},
+        {"id": 2, "img":"https://cdn.vuetifyjs.com/images/cards/cooking.png", "subtitle": "sub title", "description": "description", "availabilities": ["5:30 pm", "7:00 am"], "content": "content"},
+        {"id": 3, "img":"https://cdn.vuetifyjs.com/images/cards/cooking.png", "subtitle": "sub title", "description": "description", "availabilities": ["5:30 pm", "7:00 am"], "content": "content"},
+        {"id": 4, "img":"https://cdn.vuetifyjs.com/images/cards/cooking.png", "subtitle": "sub title", "description": "description", "availabilities": ["5:30 pm", "7:00 am"], "content": "content"},
+        {"id": 5, "img":"https://cdn.vuetifyjs.com/images/cards/cooking.png", "subtitle": "sub title", "description": "description", "availabilities": ["5:30 pm", "7:00 am"], "content": "content"}
+    ]
+}
