@@ -3,7 +3,7 @@ import { type LocaleMessages } from "@nuxtjs/i18n/dist/runtime/composables";
 
 function loadMessages() {
   const locales: { [key: string]: LocaleMessages<{}> } = import.meta.glob(
-    "./locales/*.json",
+    "../locales/*.json",
     { eager: true }
   );
   const messages: { [key: string]: LocaleMessages<{}> } = {};
