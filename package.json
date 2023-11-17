@@ -12,9 +12,12 @@
     "@invictus.codes/nuxt-vuetify": "^0.3.0",
     "@nuxt/devtools": "latest",
     "@nuxtjs/i18n": "^8.0.0-rc.4",
-    "nuxt": "^3.7.1"
+    "nuxt": "^3.7.1",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue-i18n": "^9.7.0",
+    "vuetify": "^3.4.2"
   },
   "dependencies": {
-    "vue-i18n": "^9.4.0"
+    "@mdi/font": "^7.3.67"
   }
 }
