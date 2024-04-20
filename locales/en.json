@@ -1,5 +1,18 @@
 {
     "brand": "Madxa",
+    "language": "Language",
+    "locales": {
+        "en": "English",
+        "ar": "Arabic"
+    },
+    "navigation": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About",
+        "request": "Request Service",
+        "ask": "Ask Question",
+        "blogs": "Blogs"
+    },
     "request":"Request Service",
     "home":"Home",
     "services":"Services",

@@ -1,5 +1,3 @@
-import '@mdi/font/css/materialdesignicons.css'
-import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
@@ -11,10 +9,11 @@ import themes from '../themes'
 
 export default defineNuxtPlugin(({ vueApp })=>{
     const vuetify = createVuetify({
+        ssr: true,
         components,
         directives,
         theme: {
-            defaultTheme: import.meta.env.VITE_DEFAULT_THEME || 'light',
+            defaultTheme: import.meta.env.VITE_DEFAULT_THEME || 'Light',
             variations: {
                 colors: ['primary', 'secondary'],
                 lighten: 4,
